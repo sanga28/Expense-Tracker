@@ -13,24 +13,5 @@ public class Expense {
         this.description = description;
     }
 
-    public double getAmount() {
-        return amount;
-    }
-
-    public String getCategory() {
-        return category;
-    }
-
-    public LocalDate getDate() {
-        return date;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    @Override
-    public String toString() {
-        return "Amount: " + amount + ", Category: " + category + ", Date: " + date + ", Description: " + description;
-    }
+    // Getters and setters here...
 }
